@@ -7,6 +7,8 @@ import random
 import os
 import subprocess
 from cache import cache
+     #https://github.com/pokemogukunns/YUKi-to-sinnka/edit/main/main.py#L15.   
+     #niakuse
 ver = "2.7.0" # バージョン    
 update = "再生回数などの表示" # アップデート内容
 token = "e4f5c13f-4f31-4ae1-ac5c-b3f1df232073" # hcaptchaのサイトキー
