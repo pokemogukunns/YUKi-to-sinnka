@@ -392,3 +392,17 @@ def home(response: Response,request: Request,yuki: Union[str] = Cookie(None)):
     if not(check_cokie(yuki)):
      return redirect("/")
     return template("okini.html",{"request": request})
+
+import argparse
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--port', type=int, default=5000, help='Port to run the server on')
+    args = parser.parse_args()
+
+    # 例えばFlaskの場合
+    from flask import Flask
+    app = Flask(__name__)
+
+    app.run(port=args.port)
+
