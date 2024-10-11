@@ -14,7 +14,7 @@ update = "再生回数などの表示" # アップデート内容
 token = "e4f5c13f-4f31-4ae1-ac5c-b3f1df232073" # hcaptchaのサイトキー
 max_api_wait_time = 3
 max_time = 10
-apis = [r"https://vid.puffyan.us/",r"https://invidious.io/", r"https://invidious.snopyta.org/",r"https://inv.riverside.rocks/",r"https://invidious.projectsegfau.lt/",r"https://invidious.tiekoetter.com/"]
+apis = [r"https://vid.puffyan.us/",r"https://www.youtube.com",r"https://m.youtube.com",r"https://invidious.io/", r"https://invidious.snopyta.org/",r"https://inv.riverside.rocks/",r"https://invidious.projectsegfau.lt/",r"https://invidious.tiekoetter.com/"]
 version = "1.0"
 adminannounce = requests.get(r'https://ztttas1.github.io/yuki00000000000000000000000000000/AN.txt').text.rstrip()
 os.system("chmod 777 ./yukiverify")
